@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="configuration.js" defer></script>
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <p>This is our website</p>
+  </body>
+
+  <footer id="footer">
+    <p id="loading">Loading...</p>
+  </footer>
+
+  <script>
+    document.addEventListener(
+      "DOMContentLoaded",
+      () => (document.getElementById("loading").innerHTML = "message")
+    );
+  </script>
+</html>
